@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Response\Accounts\GatewayBalances\" />
+    <Folder Include="Models\Response\Admin\KeyGenerations\" />
+    <Folder Include="Models\Response\Admin\Loggings\" />
+    <Folder Include="Models\Response\Admin\Signings\" />
+    <Folder Include="Models\Response\Admin\Peers\" />
+    <Folder Include="Models\Response\Books\" />
+    <Folder Include="Models\Response\ClioServers\" />
+    <Folder Include="Models\Response\Servers\" />
+    <Folder Include="Models\Response\PaymentChannel\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+</Project>
