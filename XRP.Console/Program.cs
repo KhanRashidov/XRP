@@ -9,7 +9,7 @@ using XRP.Console;
 
 public class Program
 {
-    private static HttpClient httpClient = new HttpClient();
+     static HttpClient httpClient = new HttpClient();
     
     public static void Main(string[] args)
     {

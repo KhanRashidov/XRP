@@ -1,4 +1,5 @@
-﻿public class Details
+﻿namespace XRP.API.Models.Response.Servers.Manifest;
+public class Details
 {
     public string domain { get; set; }
     public string ephemeral_key { get; set; }
